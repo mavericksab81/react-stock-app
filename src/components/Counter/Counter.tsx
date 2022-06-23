@@ -27,13 +27,13 @@ const Counter = () => {
 
     useEffect(() => {
         if (!state.isRunning) {
-          console.log("useEffect executed (component mounted)");
+          // console.log("useEffect executed (component mounted)");
           return;
         }
         idRef.current = setInterval(() => dispatch({ type: 'tick' }), 1000);
         return () => {
         clearInterval(idRef.current);
-        console.log("useEffect executed (component un-mounted)")
+        // console.log("useEffect executed (component un-mounted)")
         idRef.current = 0;
         };
     }, [state.isRunning]);

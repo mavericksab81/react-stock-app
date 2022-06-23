@@ -12,13 +12,15 @@ const authReducer = (state: any = initialState, action: any) => {
         case REHYDRATE: {
             return {
                 ...state,
-                currentUser: action.payload?.currentUser
+                currentUser: action.payload?.currentUser,
+                message: action.payload?.message,
             }
         }
         case LOGIN_SUCCESS: {
             return {
                 ...state, 
-                currentUser: action.payload.currentUser
+                currentUser: action.payload.currentUser,
+                message: action.payload?.message,
             }
         }
         case LOGIN_FAILURE: {
@@ -32,7 +34,7 @@ const authReducer = (state: any = initialState, action: any) => {
             return {
                 ...state,
                 currentUser: null,
-                message: action.payload?.message
+                message: null
             }
         }
         default: {

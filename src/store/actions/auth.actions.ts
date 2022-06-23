@@ -16,7 +16,7 @@ const login = (data: any) => (dispatch: any) => {
     axios.post('http://localhost:4000/api/login', { email, password })
     .then(response => {
         if (response.data.status === 200) {
-            dispatch({ type: LOGIN_SUCCESS, payload: { currentUser: response.data.user } });
+            dispatch({ type: LOGIN_SUCCESS, payload: { currentUser: response.data.user , message: response.data.message } });
             history.push('/home');
         } else {
             dispatch({ type: LOGIN_FAILURE, payload: { message : response.data.message } })
@@ -43,7 +43,7 @@ const createUser = (data: any) => (dispatch: any) => {
 
 const logout = () => (dispatch: any) => {
     localStorage.clear();
-    dispatch({ type: LOGOUT, payload: { currentUser: {}, message : 'User logged out.' } })
+    dispatch({ type: LOGOUT, payload: { currentUser: null, message : 'User logged out.' } })
     history.push('/');
 }
 

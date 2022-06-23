@@ -1,0 +1,16 @@
+export const ALL_INDICES = 'https://nse-data1.p.rapidapi.com/all_indices';
+export const NIFTY_50_INDICES = 'https://nse-data1.p.rapidapi.com/nifty_fifty_indices_data';
+export const NIFTY_COMMODITY_INDICES = 'https://nse-data1.p.rapidapi.com/nifty_commodity_indices_data';
+export const NIFTY_BANK_INDICES = 'https://nse-data1.p.rapidapi.com/nifty_bank_indices_data';
+export const NEAR_52_WEEK_LOW = 'https://nse-data1.p.rapidapi.com/near_fifty_two_week_low';
+export const NEAR_52_WEEK_HIGH = 'https://nse-data1.p.rapidapi.com/near_fifty_two_week_high';
+export const EQUITY_STOCK_INDICES = 'https://nse-data1.p.rapidapi.com/equity_stock_indices?symbol=NIFTY%20NEXT%2050';
+export const CURRENT_IPO_ISSUE = 'https://nse-data1.p.rapidapi.com/current_ipo_issue';
+export const NSE_CIRCULARS = 'https://nse-data1.p.rapidapi.com/circulars';
+export const TOP_LOOSERS = 'https://nse-data1.p.rapidapi.com/top_loosers';
+export const TOP_GAINERS = 'https://nse-data1.p.rapidapi.com/top_gainers';
+export const SEARCH_STOCK = 'https://nse-data1.p.rapidapi.com/search_stock?stockname=';
+export const CURRENT_MARKET_STATUS = 'https://nse-data1.p.rapidapi.com/market_status';
+export const INDICES_OPTION_CHAIN = 'https://nse-data1.p.rapidapi.com/indices_option_chain?symbol=NIFTY';
+export const EQUITY_OPTION_CHAIN = `https://nse-data1.p.rapidapi.com/equity_option_chain?symbol=`;
+export const FII_DII = 'https://nse-data1.p.rapidapi.com/fiis_diis';

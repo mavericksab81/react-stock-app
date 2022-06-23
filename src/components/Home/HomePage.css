@@ -1,0 +1,15 @@
+.btn-home {
+    background-color: #1877f2 !important;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 0 16px;
+    color: #fff;
+    cursor: pointer;
+    height: 35px !important;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    text-transform: capitalize;
+    font-weight: bold;
+}

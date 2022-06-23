@@ -13,6 +13,8 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 
+
+// React.StrictMode renders useEffect twice, if removed it will be rendered once.
 root.render(
   <React.StrictMode>
     <HistoryRouter history={history}>

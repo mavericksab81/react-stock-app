@@ -15,7 +15,7 @@
     right: 0;
     transform-origin: 0 50%;
     height: 1698px;
-    background-color: rgb(247, 250, 252);
+    /* background-color: rgb(247, 250, 252); */
 }
 
 .sub-left-content-1 {
@@ -24,16 +24,16 @@
     left: calc(50% - 700px);
     right: calc(50% + 540px);
     height: 40px;
-    background-color: #80e9ff;
+    background-color: #42b72a;
 }
 
 .sub-left-content-2 {
     position: absolute;
     top: 698px;
     left: -10px;
-    right: calc(50% + 405px);
+    right: calc(50% + 470px);
     height: 40px;
-    background-color: #7a73ff;
+    background-color: #1877f2;
 }
 
 .sub-left-content-3 {
@@ -49,7 +49,7 @@
     position: absolute;
     top: 658px;
     right: -10px;
-    left: calc(50% + 430px);
+    left: calc(50% + 494px);
     height: 40px;
-    background-color: #7a73ff;
+    background-color: #1877f2;
 }

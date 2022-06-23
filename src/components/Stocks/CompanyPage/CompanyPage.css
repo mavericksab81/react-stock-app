@@ -1,0 +1,86 @@
+.company_container {
+    border: 1px solid lightgray;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+    box-shadow: '0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06)' 
+}
+
+.header-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-row.padding {
+    padding: 15px;
+}
+
+.header-row.padding-l-r {
+    padding: 0 15px;
+}
+
+.company_name_label {
+    font-size: xx-large;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.company_name_url {
+    /* color: hsl(211, 100%, 59%) !important; */
+    font-weight: bold;
+    color: #1877f2 !important;
+}
+
+.company_name_id {
+    /* color: hsl(207, 12%, 43%) !important; */
+    font-weight: bold;
+    letter-spacing: 0.05px;
+}
+
+.company_name_price {
+    /* color: black; */
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.item-container {
+    width: 33%; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.item-container.bg-color-fade {
+    background-color: hsl(245, 40%, 98%);
+}
+
+li {
+    padding: 5px 0;
+    text-align: justify;
+}
+
+.label-header-color {
+    color: white;
+    /* color: hsl(207, 12%, 43%) !important; */
+}
+
+.label-desc-color {
+    /* color: rgb(178, 186, 194); */
+}
+
+.label-def-color {
+    color: #1877f2 !important;
+}
+
+@media (min-width: 1200px) {
+    .css-1oqqzyl-MuiContainer-root {
+        max-width: 100% !important;
+    }
+}
